@@ -11,16 +11,18 @@ img {
 .list-container {
     margin: 20px 300px;
     border: 3px solid black;
+    box-shadow: 3px 3px 10px rgb(48, 48, 48);
 }
 
 .head-container {
-    background-color: darkslateblue;
+    background-color: rgba(72,61, 139, .85);
     font-size: 48px;
     color: ghostwhite;
 }
 
 .list-container {
     margin: 20px 200px;
+    padding-bottom: 24px;
 }
 
 .home-list {
@@ -30,5 +32,5 @@ margin-top: 100px;
 li {
     list-style: none;
     padding-top: 25px;
-    font-size: 24px;
+    font-size: 20px;
 }
